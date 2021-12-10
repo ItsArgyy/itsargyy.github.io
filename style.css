@@ -49,3 +49,21 @@
         font-weight: bold;
 
     }
+
+    a:hover{
+
+        color: rgb(55, 13, 102);
+
+    }
+
+    ul{
+
+        color: rgb(105, 41, 179);
+
+    }
+
+    ul:hover{
+
+        color: rgb(55, 13, 102);
+
+    }
