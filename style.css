@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-    main{
+    body{
 
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #1e1e1e
 
     }
 
@@ -28,5 +29,23 @@
 
 
         display: none;
+
+    }
+
+    div#main{
+
+        background-color: #fff;
+        width: 20%;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+        margin-top: 40px;
+
+    }
+
+    a{
+
+        color: rgb(105, 41, 179);
+        font-weight: bold;
 
     }
