@@ -17,8 +17,6 @@ function contar() {
   ) {
     alert("Preencha os dados corretamente e tente novamente.");
   } else {
-    //===================================================================//
-
     if (passo <= 0) {
       alert("Passo invalido, considerando passo 1.");
       passo = 1;
