@@ -4,18 +4,14 @@ function tabuada() {
 
   if (num.value.length == 0) {
     window.alert("Preencha os dados corretamente");
-  }
-  
-  else {
+  } else {
     var n = Number(num.value);
-    tab.innerHTML = ''
+    tab.innerHTML = "";
 
-    for( c = 1; c < 11 ; c++ ){
-
-        var item = document.createElement('option')
-        item.text = `${n} x ${c} = ${n*c}`
-        tab.appendChild(item);
+    for (c = 1; c < 11; c++) {
+      var item = document.createElement("option");
+      item.text = `${n} x ${c} = ${n * c}`;
+      tab.appendChild(item);
     }
-
   }
 }

@@ -1,37 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contando</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
-</head>
-<body>
-
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <header>
-        <h1>Vamos contar</h1>
+      <h1>Vamos contar</h1>
     </header>
 
     <section>
+      <div>
+        <p>Inicio: <input type="number" name="txt_inicio" id="txt_inicio" /></p>
+        <p>Fim: <input type="number" name="txt_fim" id="txt_fim" /></p>
+        <p>Passo: <input type="number" name="txt_passo" id="txt_passo" /></p>
+        <input type="button" value="Contar" onclick="contar()" />
+      </div>
 
-        <div>
-            <p>Inicio: <input type="number" name="txt_inicio" id="txt_inicio"></p>
-            <p>Fim: <input type="number" name="txt_fim" id="txt_fim"></p>
-            <p>Passo: <input type="number" name="txt_passo" id="txt_passo"></p>
-            <input type="button" value="Contar" onclick="contar()">
-        </div>
-
-        <div id="res">
-            Insira os números!
-        </div>
-
+      <div id="res">Insira os números!</div>
     </section>
-        <p>&copy; CursoEmVideo</p>
+    <p>&copy; CursoEmVideo</p>
     <footer></footer>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>

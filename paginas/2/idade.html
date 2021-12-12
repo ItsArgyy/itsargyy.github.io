@@ -1,57 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Verificador de Idade</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon">
-</head>
-<body>
-
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="shortcut icon" href="../../favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
     <header>
-        <h1>Verificador de Idade</h1>
+      <h1>Verificador de Idade</h1>
     </header>
 
     <section>
+      <div>
+        <p>
+          <strong> Ano de Nascimento:</strong>
+          <input type="number" name="txt_ano" id="txt_ano" />
+        </p>
 
-        <div>
-            <p>
-                <strong> Ano de Nascimento:</strong>
-                <input type="number" name="txt_ano" id="txt_ano">
-            </p>
+        <p>
+          <strong>Sexo:</strong>
+          <input type="radio" name="rad_sex" id="masc" checked />
+          <label for="masc">Masculino</label>
+          <input type="radio" name="rad_sex" id="fem" />
+          <label for="fem">Feminino</label>
+        </p>
 
-            <p>
-                <strong>Sexo:</strong>
-                <input type="radio" name="rad_sex" id="masc" checked >
-                <label for="masc">Masculino</label>
-                <input type="radio" name="rad_sex" id="fem">
-                <label for="fem">Feminino</label>
-            </p>
+        <p>
+          <input type="button" value="Verificar" onclick="verificar()" />
+        </p>
+      </div>
 
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
+      <div id="res">Preencha os dados acima para ver o resultado!</div>
+      <br />
 
-        </div>
-
-        <div id="res">
-            
-            Preencha os dados acima para ver o resultado!
-
-        </div>
-        <br>
-
-        <div id="res_img">
-            
-        </div>
-
+      <div id="res_img"></div>
     </section>
-        <p>&copy; callmefellix</p>
+    <p>&copy; callmefellix</p>
     <footer></footer>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
