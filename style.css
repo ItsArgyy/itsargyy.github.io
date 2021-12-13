@@ -17,13 +17,13 @@ li {
   font-size: 1.3em;
 }
 
-li.oculto {
+.oculto {
   display: none;
 }
 
-div#main {
+#main {
   background-color: #fff;
-  width: 20%;
+  width: 325px;
   padding: 20px;
   border-radius: 20px;
   margin: 0 auto;
