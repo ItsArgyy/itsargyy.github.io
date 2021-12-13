@@ -1,0 +1,18 @@
+body{
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#roleta{
+
+    margin-top: 40px;
+    background-color: #fff;
+    width: 550px;
+    height: 550px;
+    display: grid;
+    place-items: center;
+    border-radius: 60px;
+
+}
